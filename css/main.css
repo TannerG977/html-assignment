@@ -1,0 +1,51 @@
+/* My awesome css*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 18px;
+}
+
+header,footer {
+    background-color: goldenrod;
+}
+
+.site-title {
+    color: blueviolet;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.hobbies li:nth-child(odd) {
+    background: gray;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.notes:link {
+    text-decoration: none;
+    border: solid;
+    background-color: aliceblue;
+}
+
+.notes:hover {
+    background-color: aquamarine;
+}
+
+.home:link {
+    text-decoration: none;
+    border: solid;
+    background-color: aliceblue; 
+}
+
+.home:hover {
+    background-color: aquamarine;
+}
+
